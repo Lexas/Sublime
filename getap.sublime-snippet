@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[var ${1:e} = document.getElement$2('${3:$1}');
+var ${4:div} = document.createElement('${5:$4}');
+var ${6:text} = document.createTextNode('$7');
+$4.appendChild($6);
+$1.appendChild($4);]]></content>
+	<tabTrigger>getap</tabTrigger>
+	<scope>source.js</scope>
+	<description>Get element and append child</description>
+</snippet>
+
